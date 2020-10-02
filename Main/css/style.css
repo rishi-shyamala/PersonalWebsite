@@ -1,0 +1,61 @@
+.header {
+    background-color: aqua;
+    padding-left: 1px;
+    padding-right: 100px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+.header a {
+    float: left;
+    color: orangered;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.header a:hover{
+    background-color: orangered;
+    color: black;
+}
+
+.header a.active {
+    background-color: white;
+    color: orangered;
+}
+
+.title {
+    text-align: center;
+}
+
+.featured-container {
+    background-color: blue;
+}
+
+.featured {
+    background-color: yellowgreen;
+    min-width: 100%;
+}
+
+.featured th{
+    text-align: center;
+}
+
+.featured .card{
+    background-color: hotpink;
+}
+
+.featured-more {
+    text-align: right;
+}
+
+.footer {
+    background-color: gray;
+    text-align: right;
+
+}
+
+.footer p {
+    color: honeydew;
+    font-size: 15px;
+    padding-right: 20px;
+}
